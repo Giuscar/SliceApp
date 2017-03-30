@@ -90,7 +90,7 @@ public class List_Pager_Act extends AppCompatActivity {
         lista_gruppi.add(s);
         lista_gruppi.add(t);
         lista_gruppi.add(u);
-       // PROVA PROVA W LA FIGA
+       // PROVA PROVA W LA FIGAa
 
         final ListView mylist = (ListView) findViewById(R.id.listView1);
 
