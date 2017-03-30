@@ -36,6 +36,7 @@ public class List_Pager_Act extends AppCompatActivity {
     private Gruppo r= new Gruppo("Gruppo Vacanze R",this);
     private Gruppo s= new Gruppo("Gruppo Vacanze S",this);
     private Gruppo t= new Gruppo("Gruppo Vacanze T",this);
+    private Gruppo u= new Gruppo("Gruppo Vacanze U",this);
 
     private long number= 3934798759L;
     private Persona p1 = new Persona("Kalos","17/10/1992","Calogero","Carrabbotta","12345",number);
@@ -88,8 +89,8 @@ public class List_Pager_Act extends AppCompatActivity {
         lista_gruppi.add(r);
         lista_gruppi.add(s);
         lista_gruppi.add(t);
-
-
+        lista_gruppi.add(u);
+       // PROVA PROVA W LA FIGA
 
         final ListView mylist = (ListView) findViewById(R.id.listView1);
 
