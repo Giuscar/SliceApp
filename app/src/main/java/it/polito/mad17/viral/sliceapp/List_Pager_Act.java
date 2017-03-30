@@ -1,6 +1,7 @@
 package it.polito.mad17.viral.sliceapp;
 
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
@@ -99,11 +100,8 @@ public class List_Pager_Act extends AppCompatActivity {
         // inietto i dati
         mylist.setAdapter(adapter);
 
-
-
-
-
-
+        Intent intent = new Intent(List_Pager_Act.this, ExpensesActivity.class);
+        List_Pager_Act.this.startActivity(intent);
 
     }
 

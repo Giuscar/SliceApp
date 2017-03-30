@@ -24,8 +24,20 @@ public class Spesa {
     //public Attachment PHOTO; //Quando scopriremo come si fa le attiviamo
     //
 
+    public Spesa(String data_acquisto, String motivo, String luogo, Persona acquirente,
+                 Soldi costo, SharingPolicy policy_scelta, ArrayList<Categoria> categorie,
+                 String comments, HashMap<Persona, Contestazione> contestation) {
+        this.data_acquisto = data_acquisto;
+        this.motivo = motivo;
+        this.luogo = luogo;
+        this.acquirente = acquirente;
+        this.costo = costo;
+        this.policy_scelta = policy_scelta;
+        this.categorie = categorie;
+        this.comments = comments;
+        this.contestation = contestation;
+    }
 
-
-
-
+    String getDescription(){ return motivo;}
+    Soldi getPrice(){ return costo;}
 }

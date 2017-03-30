@@ -6,16 +6,16 @@ package it.polito.mad17.viral.sliceapp;
 
 public class Soldi {
 
-    private float valore;
+    private double valore;
     private String valuta;
 
-    public Soldi(float valore, String valuta){
+    public Soldi(double valore, String valuta){
 
         this.valore=valore;
         this.valuta=valuta;
     }
 
-    public float getValore(){
+    public double getValore(){
 
         return valore;
     }
